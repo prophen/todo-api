@@ -1,11 +1,11 @@
 ### Fetch all tasks
 
-GET http://localhost:3200/tasks
+GET http://localhost:3000/tasks
 Content-Type: application/json
 
 ### Create a new task
 
-POST http://localhost:3200/tasks
+POST http://localhost:3000/tasks
 Content-Type: application/json
 
  {
@@ -17,7 +17,7 @@ Content-Type: application/json
   }
 
   ### Update a Task
-  PUT http://localhost:3200/tasks
+  PUT http://localhost:3000/tasks
 Content-Type: application/json
 
 {
